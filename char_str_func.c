@@ -5,6 +5,7 @@
  * @list: the list of arguments the function _printf is receiving
  * Return: the number of characteres of the string
  */
+
 int print_string(va_list list)
 {
 	int i;
