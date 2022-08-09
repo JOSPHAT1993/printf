@@ -5,6 +5,7 @@
  * @list: the list of arguments the function _printf is receiving
  * Return: count digit
  */
+
 int func_digit(va_list list)
 {
 	unsigned int m;
