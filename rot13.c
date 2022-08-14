@@ -5,7 +5,6 @@
  * @list: the list of arguments the funcion id receiving
  * Return: count characters
  */
-
 int func_rot13(va_list list)
 {
 	int i = 0, j = 0, count = 0;

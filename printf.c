@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
  * _printf - print a char or a string
  * @format: It's a character string
  * Return: the number of character the function is printing
  */
-
 int _printf(const char *format, ...)
 {
 	str_format st_format[] = {

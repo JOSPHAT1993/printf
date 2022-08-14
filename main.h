@@ -7,12 +7,12 @@
 #include <limits.h>
 #include <stdio.h>
 
+
 /**
  * struct format - the struct by name stfmt
  * @fmt: index by function
  * @func: pointer to function - funtion print
  */
-
 typedef struct st_fmt
 {
 	char *fmt;
@@ -35,5 +35,4 @@ int func_unsig_int(va_list list);
 int func_stringUppercase(va_list list);
 int func_revstr(va_list list);
 int func_rot13(va_list);
-
-#endif /* MAIN_H */
+#endif /* HOLBERTON_H */
